@@ -18,7 +18,7 @@ fetch("https://dummyjson.com/products")
   <div class="card-body">
     <h5 class="card-title">${product.title}</h5>
     <p class="card-text">${product.description}</p>
-    <a href="#" class="btn btn-primary">Add To Card</a>
+    <a href="details.html?id=${product.id}" class="btn btn-primary">Details</a>
   </div>
         </div>
         `;

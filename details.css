@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*   font-family: "Poppins", serif; */
+body{
+    background-color:azure;
+}
+.card{
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.product {
+    background-color: white;
+  width: 700px;
+  margin: auto;
+  border-radius: 18px ;
+  -webkit-border-radius: 18px ;
+  -moz-border-radius: 18px ;
+  -ms-border-radius: 18px ;
+  -o-border-radius: 18px ;
+}
+
+.card-title {
+    font-family: "Poppins", serif;
+margin-left: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+.card-text {
+    margin-left: 10px;
+    font-family: "Poppins", serif;
+
+}
+
+.buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-price {
+  padding: 8px;
+  margin-left: 10px;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.addcart {
+  text-decoration: none;
+  color: rgb(248, 246, 246);
+  background-color: rgb(29, 128, 128);
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
